@@ -5,6 +5,8 @@ This site showcases my technical expertise, unique design style, and real-world 
 
 **Live Portfolio:** [https://winniemadikizella.github.io/winnie_madikizella_portfolio-website/](https://winniemadikizella.github.io/winnie_madikizella_portfolio-website/)
 
+This portfolio demonstrates my ability to create a responsive, functional website from scratch using HTML and CSS, following best practices in web development and documentation.
+
 ## Features
 - **Responsive Design** – Works seamlessly across desktop, tablet, and mobile.
 - **Original Branding** – Custom layout, color scheme, and typography.
@@ -19,8 +21,9 @@ This site showcases my technical expertise, unique design style, and real-world 
 - **GitHub Pages** – Deployment.
 
 ## Project Structure
-winnie_madikizella_portfolio-website/
 ```
+winnie_madikizella_portfolio-website/
+
 │
 ├── index.html # Home
 ├── about.html # About Me
@@ -44,20 +47,26 @@ winnie_madikizella_portfolio-website/
    ```bash
    cd winnie_madikizella_portfolio-website
    
-3. Open **Live Home Page:** [View Index.html](https://winniemadikizella.github.io/winnie_madikizella_portfolio-website/) in your browser.
+3. Open `index.html` in your browser.
+
+   Open **Live Home Page:** [View Index.html](https://winniemadikizella.github.io/winnie_madikizella_portfolio-website/) in your browser.
 
 ## Projects
-1. Excel Dashboard – Bus Transportation Analysis
-Transportation trends analysis using Excel, Power Query, and PivotTables.
+1. **Excel Dashboard – Bus Transportation Analysis**
 
-2. SQL Exploratory Data Analysis – Restaurant Performance
-SQL-based menu performance, pricing, and customer behavior analysis.
+   Transportation trends analysis using Excel, Power Query, and PivotTables.
 
-3. Power BI Dashboard – Taxi Organization Analysis 
-Power BI dashboard on taxi service revenue, driver efficiency, and trip patterns.
+3. **SQL Exploratory Data Analysis – Restaurant Performance**
 
-4. Tableau Dashboard – Covid‑19 Visualization 
-Interactive dashboard visualizing pandemic trends and recovery patterns.
+   SQL-based menu performance, pricing, and customer behavior analysis.
+
+3. **Power BI Dashboard – Taxi Organization Analysis**
+
+   Power BI dashboard on taxi service revenue, driver efficiency, and trip patterns.
+
+5. **Tableau Dashboard – Covid‑19 Visualization**
+
+   Interactive dashboard visualizing pandemic trends and recovery patterns.
 
 ## Project Management & Collaboration
 This was a self-directed project, handled from concept to deployment:
