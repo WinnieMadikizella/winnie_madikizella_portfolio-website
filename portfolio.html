@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Portfolio of Winnie Madikizella showcasing analytics, automation, and cloud-powered solutions.">
+  <meta name="keywords" content="Data Analyst, BI Analyst, Power BI, SQL, Python, AWS, Automation, Kenya">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Winnie Madikizella</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <style>
+    .project a.project-link {
+      display: inline-block;
+      text-decoration: none;
+      color: inherit;
+    }
+    .project a.project-link img {
+      display: block;
+      margin-top: 0.5rem;
+      max-width: 100%;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+    .btn-primary {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      background-color: #0073e6;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 0.5rem;
+    }
+    .btn-primary:hover {
+      background-color: #005bb5;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo">Winnie Madikizella</a>
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html" class="active">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="content">
+    <h1>My Projects</h1>
+
+    <div class="project">
+      <a href="https://github.com/WinnieMadikizella/Bus-Transportation-Analysis" target="_blank" class="project-link">
+        <h2>Bus Transportation Analysis Interactive Excel Dashboard</h2>
+        <img src="images/bus-dashboard-screenshot.png" alt="Bus Transportation Excel Dashboard">
+      </a>
+
+      <p>Designed and developed an automated, interactive Excel dashboard to analyze bus transportation trends, usage, and performance for operational decision-making. Built using Excel with Power Query and Power Pivot, the dashboard automatically updates when new data is added, transforming raw transportation data into dynamic, decision-ready insights.</p>
+
+      <p><strong>Key Insights:</strong></p>
+<ul>
+  <li>Busiest and least busy routes: East-West Express most congested, South Line least congested.</li>
+  <li>Peak operating hours: 8:57 PM; Off-peak: 7:50 PM.</li>
+  <li>Bus utilization breakdown: 24% over-utilized, 22% under-utilized, 45% moderately utilized, 9% well-utilized.</li>
+  <li>Year-over-year ridership decline: -83.5%.</li>
+</ul>
+
+      <p><strong>Data Model:</strong> Structured star schema in Excel Power Pivot with fact and dimension tables for efficient reporting and automated refresh.</p>
+      <p><strong>Technologies:</strong> Microsoft Excel, Power Query, Power Pivot, DAX, PivotTables, Data Visualization & Dashboard Design.</p>
+
+      <a href="https://github.com/WinnieMadikizella/Bus-Transportation-Analysis" target="_blank" class="btn-primary">View Project</a>
+    </div>
+
+    <div class="project">
+      <a href="https://github.com/WinnieMadikizella/Restaurant-Operations-Analysis-SQL/tree/main" target="_blank" class="project-link">
+        <h2>SQL Exploratory Data Analysis - Optimizing Restaurant Performance</h2>
+        <img src="images/sql-query.png" alt="SQL Restaurant Performance Analysis">
+      </a>
+
+      <p>Conducted an in-depth SQL analysis to evaluate restaurant sales performance, customer preferences, and pricing strategies using <code>menu_items</code> and <code>order_details</code> tables, generating actionable insights.</p>
+
+      <p><strong>Key Insights:</strong></p>
+      <ul>
+        <li>Italian dishes are the most expensive (avg. $16.75), American dishes the cheapest (avg. $10.07).</li>
+        <li>The Hamburger is the most ordered item (622 orders), Chicken Tacos the least (123 orders).</li>
+        <li>High-spending orders favor Italian cuisine, top order totaling $192.15 for 14 items.</li>
+        <li>20 orders had more than 12 items, highlighting group/family patterns.</li>
+      </ul>
+
+      <p><strong>Recommendations:</strong> Introduce premium American menu options, optimize low-performing items (e.g., Chicken Tacos), and target loyalty programs for high-spending customers.</p>
+      <p><strong>Technologies:</strong> SQL (PostgreSQL/MySQL), Data Cleaning, Data Analysis, Joins, Aggregations.</p>
+
+      <a href="https://github.com/WinnieMadikizella/Restaurant-Operations-Analysis-SQL/tree/main" target="_blank" class="btn-primary">View Project</a>
+    </div>
+
+    <div class="project">
+      <a href="https://github.com/WinnieMadikizella/Taxi-Organization-Analysis-Power-BI" target="_blank" class="project-link">
+        <h2>Taxi Organization Analysis – Power BI Dashboard</h2>
+        <img src="images/taxi-dashboard.png" alt="Taxi Organization Power BI Dashboard">
+      </a>
+
+      <p>Developed a Power BI dashboard analyzing taxi operations over May–July 2024, identifying revenue patterns, trip behavior, driver efficiency, and external impacts.</p>
+
+      <p><strong>Key Insights:</strong></p>
+      <ul>
+        <li>Revenue grew from $6.3k in May to $7.1k in July.</li>
+        <li>Peak revenue hours: 6 PM ($1,014), 10 AM ($945), 2 PM ($941).</li>
+        <li>Uptown generated the highest revenue ($4.30k), Suburbs the least ($3.66k).</li>
+        <li>Snowy conditions led to highest demand ($4.2k).</li>
+        <li>Long-distance trips accounted for 75% of revenue; short trips 3%.</li>
+      </ul>
+
+      <p><strong>Recommendations:</strong> Optimize fleet allocation in Uptown during peak hours, promote long-distance trips, adjust surge pricing, and enhance short-trip profitability.</p>
+      <p><strong>Technologies:</strong> Microsoft Power BI, DAX, CSV Data Processing, Data Visualization.</p>
+
+      <a href="https://github.com/WinnieMadikizella/Taxi-Organization-Analysis-Power-BI" target="_blank" class="btn-primary">View Project</a>
+    </div>
+
+    <div class="project">
+      <a href="https://public.tableau.com/app/profile/winnie.madikizella/viz/Covid-19Visualization_17342858707990/Dashboard1" target="_blank" class="project-link">
+        <h2>Covid‑19 Visualization – Tableau Dashboard</h2>
+        <img src="images/covid19-dashboard.png" alt="Covid‑19 Tableau Dashboard">
+      </a>
+
+      <p>Interactive Tableau dashboard visualizing global Covid‑19 trends, with global and country-specific insights.</p>
+
+      <p><strong>Key Insights:</strong></p>
+      <ul>
+        <li>Covid‑19 cases show distinct waves, major surges in specific months.</li>
+        <li>Certain countries/regions consistently reported higher case counts.</li>
+        <li>Death rates varied significantly across regions.</li>
+        <li>Recovery rates improved over time with vaccination coverage expansion.</li>
+        <li>Some regions reported lower case counts due to limited testing/under-reporting.</li>
+      </ul>
+
+      <p><strong>Technologies:</strong> Tableau, CSV Data Processing, Data Visualization, Interactive Dashboard Design.</p>
+
+      <a href="https://public.tableau.com/app/profile/winnie.madikizella/viz/Covid-19Visualization_17342858707990/Dashboard1" target="_blank" class="btn-primary">View Project</a>
+    </div>
+
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Winnie Madikizella. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
