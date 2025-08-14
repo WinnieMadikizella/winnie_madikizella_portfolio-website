@@ -1,18 +1,26 @@
 # Winnie Madikizella – Portfolio Website
 
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)] 
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)] 
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)] 
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-2088FF?style=flat-square&logo=github&logoColor=white)] 
+[![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoft-excel&logoColor=white)] 
+[![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=power-bi&logoColor=black)] 
+[![SQL](https://img.shields.io/badge/SQL-00758F?style=flat-square&logo=mysql&logoColor=white)] 
+[![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)]
+
+
 A responsive, visually appealing, and functional personal portfolio website built entirely using **raw HTML5** and **CSS3** (no frameworks or libraries).  
-This site showcases my technical expertise, unique design style, and real-world analytics projects. It also demonstrates my ability to write clean, maintainable code and manage a project from concept to deployment.
+This site showcases my technical expertise, unique design style, and real-world analytics projects.
 
 **Live Portfolio:** [https://winniemadikizella.github.io/winnie_madikizella_portfolio-website/](https://winniemadikizella.github.io/winnie_madikizella_portfolio-website/)
-
-This portfolio demonstrates my ability to create a responsive, functional website from scratch using HTML and CSS, following best practices in web development and documentation.
 
 ## Features
 - **Responsive Design** – Works seamlessly across desktop, tablet, and mobile.
 - **Original Branding** – Custom layout, color scheme, and typography.
-- **Detailed Project Pages** – Includes screenshots, descriptions, and GitHub/live file links.
+- **Detailed Project Pages** – Screenshots, descriptions, and links to projects.
 - **Accessible Navigation** – Simple, intuitive menu structure.
-- **Clean Code** – No frameworks; hand-coded HTML and CSS.
+- **Clean Code** – Hand-coded HTML and CSS.
 
 ## Technologies
 - **HTML5** – Semantic, structured markup.
@@ -23,56 +31,37 @@ This portfolio demonstrates my ability to create a responsive, functional websit
 ## Project Structure
 ```
 winnie_madikizella_portfolio-website/
-
 │
-├── index.html # Home
+├── index.html # Homepage / Hero Section
 ├── about.html # About Me
-├── portfolio.html # Projects
+├── portfolio.html # Projects & Case Studies
 ├── contact.html # Contact Form & Info
 │
-├── styles/
-│ └── style.css # Main styles
-├── images/ # Screenshots, profile photo
-├── docs/ # Resume PDF
+├── assets/ # Supporting files
+│ ├── css/
+│ │ └── style.css # Main CSS
+│ ├── js/
+│ │ └── main.js # Optional JS scripts
+│ ├── images/ # Profile photo, project screenshots, icons
+│ └── docs/ # Resume PDFs or other documents
+│
 └── README.md # Documentation
-
 ```
 
-## Running Locally
-1. Clone this repo:
-   ```bash
-   git clone https://github.com/WinnieMadikizella/winnie_madikizella_portfolio-website.git
 
-2. Open the folder:
-   ```bash
-   cd winnie_madikizella_portfolio-website
-   
-3. Open `index.html` in your browser.
+## Featured Projects
+1. **Excel Dashboard – Bus Transportation Analysis**  
+   Transportation trends analysis using Excel, Power Query, and PivotTables.  
 
-  Open **Live Home Page:** [View Index.html](https://winniemadikizella.github.io/winnie_madikizella_portfolio-website/) in your browser.
+2. **SQL Exploratory Data Analysis – Restaurant Performance**  
+   SQL-based menu performance, pricing, and customer behavior analysis.  
 
-## Projects
-1. **Excel Dashboard – Bus Transportation Analysis**
+3. **Power BI Dashboard – Taxi Organization Analysis**  
+   Dashboard on taxi service revenue, driver efficiency, and trip patterns.  
 
-   Transportation trends analysis using Excel, Power Query, and PivotTables.
+4. **Tableau Dashboard – Covid‑19 Visualization**  
+   Interactive visualization of pandemic trends and recovery patterns.  
 
-2. **SQL Exploratory Data Analysis – Restaurant Performance**
+---
 
-   SQL-based menu performance, pricing, and customer behavior analysis.
-
-3. **Power BI Dashboard – Taxi Organization Analysis**
-  
-   Power BI dashboard on taxi service revenue, driver efficiency, and trip patterns.
-
-4. **Tableau Dashboard – Covid‑19 Visualization**
-
-   Interactive dashboard visualizing pandemic trends and recovery patterns.
-
-## Project Management & Collaboration
-This was a self-directed project, handled from concept to deployment:
-- Planning – Defined scope, goals, and deliverables.
-- Execution – Designed, coded, and tested site using HTML/CSS.
-- Version Control – Managed with Git/GitHub.
-- Documentation – Created detailed README and in-code comments.
-
-Although completed solo, the project adheres to professional development workflows, making it collaboration-ready.
+This portfolio was **self-directed from concept to deployment** using HTML, CSS, and GitHub Pages, demonstrating both design skills and technical proficiency.
